@@ -1,0 +1,9 @@
+{
+	"name": "heathcare-project-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28ea9f09-0101-4dee-a0d4-e2580cf16748",
+		"tenantId": "29d12ad1-5b63-46e3-ac00-8dd7ae505c93"
+	}
+}
