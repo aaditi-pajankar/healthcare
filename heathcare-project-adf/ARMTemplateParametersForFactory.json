@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "heathcare-project-adf"
+		},
+		"ls_azure_delta_lake_accessToken": {
+			"value": ""
+		},
+		"ls_azure_sql_password": {
+			"value": ""
+		},
+		"ls_healthcare_target_accountKey": {
+			"value": ""
+		},
+		"ls_azure_sql_properties_typeProperties_server": {
+			"value": "trendytech-sql-server1.database.windows.net"
+		},
+		"ls_azure_sql_properties_typeProperties_database": {
+			"value": "@{linkedService().db_name}"
+		},
+		"ls_azure_sql_properties_typeProperties_userName": {
+			"value": "admin-sql"
+		},
+		"ls_healthcare_target_properties_typeProperties_url": {
+			"value": "https://trendytechsahealthcare.dfs.core.windows.net/"
+		}
+	}
+}
